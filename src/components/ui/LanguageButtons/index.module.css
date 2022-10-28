@@ -1,0 +1,25 @@
+.btn {
+  position: relative;
+  font-size: 16px;
+  line-height: 19.09px;
+  font-weight: 600;
+  color: var(--gray);
+  margin-bottom: 20px;
+}
+
+.btn:global(.active) {
+  color: var(--blue);
+}
+
+.btn:global(.active)::before {
+  content: "";
+  position: absolute;
+  bottom: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: block;
+  width: 7px;
+  height: 7px;
+  background-color: var(--blue);
+  border-radius: 50%;
+}
