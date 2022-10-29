@@ -1,0 +1,40 @@
+.root {
+  position: relative;
+  display: flex;
+  margin-bottom: 18px;
+}
+
+.checkbox {
+  visibility: hidden;
+  margin-right: 35px;
+}
+
+.checkbox::before {
+  content: "";
+  position: absolute;
+  left: 0px;
+  top: -6px;
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid var(--lightgray);
+  border-radius: 50%;
+  visibility: visible;
+}
+
+.checkbox:checked::after {
+  content: "";
+  position: absolute;
+  left: 11.3px;
+  top: 5.1px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: var(--blue);
+  border-radius: 50%;
+  visibility: visible;
+}
+
+.label {
+  display: inline-block;
+}
