@@ -1,0 +1,11 @@
+.root {
+  padding: 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media (min-width: 768px) {
+  .root {
+    padding: 70px 50px 30px;
+  }
+}
