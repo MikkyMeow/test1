@@ -1,0 +1,72 @@
+.background {
+  background-image: linear-gradient(93.29deg, #388af3 21.04%, #a483e2 88.77%);
+}
+
+.root {
+  max-width: 1200px;
+  margin: 0 auto;
+  color: var(--white);
+  padding: 50px 30px;
+}
+
+.logo {
+  font-weight: 800;
+  font-size: 30px;
+  line-height: 38px;
+  margin-bottom: 44px;
+}
+
+.listContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.messengersContainer {
+  display: flex;
+}
+
+.messengersBlock {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.messengersBlock a {
+  display: block;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 768px) {
+  .copyright {
+    max-width: none;
+    width: 100%;
+  }
+
+  .copyright li {
+    width: auto;
+  }
+
+  .copyright ul {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+@media (min-width: 1200px) {
+  .root {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .logo {
+    margin-right: 16%;
+  }
+
+  .listContainer {
+    flex-wrap: nowrap;
+  }
+
+  .list {
+    margin-right: 13%;
+  }
+}
