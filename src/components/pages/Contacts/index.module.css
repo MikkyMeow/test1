@@ -1,0 +1,27 @@
+.root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 30px;
+}
+
+.title {
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: 700;
+  color: var(--blue);
+  margin-bottom: 22px;
+}
+
+.description {
+  max-width: 550px;
+  font-size: 16px;
+  line-height: 30px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 768px) {
+  .root {
+    padding: 30px 50px;
+  }
+}
