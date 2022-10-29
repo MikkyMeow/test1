@@ -3,7 +3,7 @@ import { LanguageButtons } from "../../ui/LanguageButtons";
 import styles from "./index.module.css";
 
 export const Nav = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
     <div className={styles.root}>

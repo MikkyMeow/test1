@@ -1,13 +1,12 @@
 import { Footer } from "../../elements/Footer";
 import { Nav } from "../../elements/Nav";
+import { Bread } from "../../ui/Bread";
 
 const Contacts = () => {
   return (
     <div>
       <Nav />
-      <div class="breadcrumbs">
-        Главная - <b>Контакты</b>
-      </div>
+      <Bread />
       <h1>Мы рядом</h1>
       <p>
         Заполните форму ниже и мы свяжемся с вами. Не любите формы? Напишите нам
