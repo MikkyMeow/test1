@@ -1,0 +1,21 @@
+.root {
+  position: relative;
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: 800;
+  color: var(--blue);
+}
+
+.plane {
+  position: absolute;
+  left: 50%;
+  top: 60px;
+  transform: translateX(-50%);
+}
+
+.label {
+  position: absolute;
+  left: 50%;
+  bottom: 75px;
+  transform: translateX(-50%);
+}

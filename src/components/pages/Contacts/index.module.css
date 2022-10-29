@@ -24,4 +24,30 @@
   .root {
     padding: 30px 50px;
   }
+
+  .inputContainer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 750px;
+  }
+
+  .input {
+    max-width: 750px;
+    margin-bottom: 60px;
+  }
+
+  .inputContainer .input:not(:last-child) {
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .form {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .inputContainer {
+    width: 750px;
+  }
 }
