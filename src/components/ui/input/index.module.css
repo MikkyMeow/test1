@@ -18,6 +18,10 @@
   transition: 0.3s;
 }
 
+.required {
+  color: red;
+}
+
 .input:focus + .label,
 .input:not(:placeholder-shown) + .label {
   transform: scale(0.65) translate(0, -100%);
@@ -34,4 +38,14 @@
   z-index: 1;
   background-color: transparent;
   outline: none;
+  transition: 0.3s;
+}
+
+.root:hover .input,
+.input:focus {
+  border-color: var(--blue);
+}
+
+.root:active .input {
+  border-color: var(--blue-active);
 }

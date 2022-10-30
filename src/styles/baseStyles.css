@@ -17,9 +17,18 @@ ul {
   list-style-type: none;
   padding: 0;
 }
-/* TODO: добавить ховеры */
+
 a {
   text-decoration: none;
   color: var(--blue);
   font-weight: 700;
+  transition: 0.3s;
+}
+
+a[href]:hover {
+  color: var(--blue-hover);
+}
+
+a[href]:active {
+  color: var(--blue-active);
 }

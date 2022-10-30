@@ -5,13 +5,22 @@
   font-weight: 600;
   color: var(--gray);
   margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  color: var(--blue);
+}
+
+.btn:active {
+  color: var(--blue-active);
 }
 
 .btn:global(.active) {
   color: var(--blue);
 }
 
-.btn:global(.active)::before {
+.btn::before {
   content: "";
   position: absolute;
   bottom: -12px;
@@ -20,6 +29,11 @@
   display: block;
   width: 7px;
   height: 7px;
-  background-color: var(--blue);
+  background-color: var(--white);
   border-radius: 50%;
+  transition: 0.3s;
+}
+
+.btn:global(.active)::before {
+  background-color: var(--blue);
 }
