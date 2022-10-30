@@ -4,6 +4,18 @@
   margin-bottom: 18px;
 }
 
+.root:hover .checkbox::before {
+  border-color: var(--blue);
+}
+
+.root:active .checkbox::before {
+  border-color: var(--blue-active);
+}
+
+.required {
+  color: red;
+}
+
 .checkbox {
   visibility: hidden;
   margin-right: 35px;
@@ -20,9 +32,10 @@
   border: 1px solid var(--lightgray);
   border-radius: 50%;
   visibility: visible;
+  transition: 0.3s;
 }
 
-.checkbox:checked::after {
+.checkbox::after {
   content: "";
   position: absolute;
   left: 11.3px;
@@ -30,9 +43,14 @@
   display: block;
   width: 10px;
   height: 10px;
-  background-color: var(--blue);
+  background-color: var(--white);
   border-radius: 50%;
   visibility: visible;
+  transition: 0.3s;
+}
+
+.checkbox:checked::after {
+  background-color: var(--blue);
 }
 
 .label {

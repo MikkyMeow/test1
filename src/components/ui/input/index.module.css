@@ -38,4 +38,14 @@
   z-index: 1;
   background-color: transparent;
   outline: none;
+  transition: 0.3s;
+}
+
+.root:hover .input,
+.input:focus {
+  border-color: var(--blue);
+}
+
+.root:active .input {
+  border-color: var(--blue-active);
 }

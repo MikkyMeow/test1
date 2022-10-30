@@ -26,6 +26,7 @@ const Contacts = () => {
             <Input className={styles.input} label="Комментарий" required />
             <Checkbox
               type="checkbox"
+              required
               label={
                 <>
                   Согласен <a href="/#">политикой конфиденциальности</a>
