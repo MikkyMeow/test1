@@ -52,6 +52,15 @@
   font-weight: 600;
   margin-bottom: 8px;
   user-select: none;
+  transition: 0.3s;
+}
+
+.list li:hover {
+  color: var(--blue-hover);
+}
+
+.list li:active {
+  color: var(--blue-active);
 }
 
 .list li:global(.active) {
