@@ -1,5 +1,7 @@
 :root {
   --blue: #388af3;
+  --blue-hover: #7ab9ff;
+  --blue-active: #005ec0;
   --white: #ffffff;
   --black: #282828;
   --gray: #979bad;
