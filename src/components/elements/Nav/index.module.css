@@ -12,6 +12,7 @@
   font-weight: 800;
   font-size: 30px;
   line-height: 37.5px;
+  user-select: none;
 }
 
 .menuBtn {
@@ -50,6 +51,7 @@
   line-height: 21.47px;
   font-weight: 600;
   margin-bottom: 8px;
+  user-select: none;
 }
 
 .list li:global(.active) {

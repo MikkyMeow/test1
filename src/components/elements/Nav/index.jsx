@@ -16,7 +16,6 @@ export const Nav = () => {
         <span />
         <span />
       </button>
-      {/* <div className={`${styles.content} ${!isMenuOpen ? "show" : ""}`}> */}
       <nav>
         <ul className={`${styles.list} ${isMenuOpen ? "show" : ""}`}>
           <li>Проекты</li>

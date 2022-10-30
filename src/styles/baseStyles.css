@@ -25,10 +25,10 @@ a {
   transition: 0.3s;
 }
 
-a:hover {
+a[href]:hover {
   color: var(--blue-hover);
 }
 
-a:active {
+a[href]:active {
   color: var(--blue-active);
 }

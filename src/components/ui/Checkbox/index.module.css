@@ -37,4 +37,5 @@
 
 .label {
   display: inline-block;
+  user-select: none;
 }
