@@ -9,6 +9,7 @@ export const LanguageButtons = () => {
     <div className={styles.root}>
       {languages.map((lang) => (
         <button
+          key={lang}
           className={`${styles.btn} ${lang === language && "active"}`}
           onClick={() => setLanguage(lang)}
         >
