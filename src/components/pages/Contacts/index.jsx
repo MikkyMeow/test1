@@ -20,10 +20,10 @@ const Contacts = () => {
         <form className={styles.form}>
           <div>
             <div className={styles.inputContainer}>
-              <Input className={styles.input} label="Ваше имя" />
-              <Input className={styles.input} label="Ваш e-mail" />
+              <Input className={styles.input} label="Ваше имя" required />
+              <Input className={styles.input} label="Ваш e-mail" required />
             </div>
-            <Input className={styles.input} label="Комментарий" />
+            <Input className={styles.input} label="Комментарий" required />
             <Checkbox
               type="checkbox"
               label={

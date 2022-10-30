@@ -18,6 +18,10 @@
   transition: 0.3s;
 }
 
+.required {
+  color: red;
+}
+
 .input:focus + .label,
 .input:not(:placeholder-shown) + .label {
   transform: scale(0.65) translate(0, -100%);
