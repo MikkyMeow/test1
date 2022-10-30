@@ -5,7 +5,7 @@ import styles from "./index.module.css";
 export const SubmitButton = () => {
   return (
     <button type="submit" className={styles.root}>
-      <SubmitBorder />
+      <SubmitBorder className={styles.border} />
       <span className={styles.plane}>
         <PlaneIcon />
       </span>
