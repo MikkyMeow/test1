@@ -1,10 +1,20 @@
+import React, { useState } from "react";
 import styles from "./index.module.css";
 
 export const LanguageButtons = () => {
+  const [language, setLanguage] = useState("RU");
+  const languages = ["RU", "EN"];
+
   return (
     <div className={styles.root}>
-      <button className={`${styles.btn} active`}>RU</button>
-      <button className={`${styles.btn}`}>EN</button>
+      {languages.map((lang) => (
+        <button
+          className={`${styles.btn} ${lang === language && "active"}`}
+          onClick={() => setLanguage(lang)}
+        >
+          {lang}
+        </button>
+      ))}
     </div>
   );
 };
