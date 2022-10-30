@@ -114,7 +114,7 @@
   transition: 0.3s;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 900px) {
   .root {
     padding: 30px 50px;
     flex-wrap: nowrap;
@@ -149,7 +149,7 @@
 
   .languages {
     display: block;
-    width: 130px;
+    min-width: 70px;
     margin-bottom: 0;
   }
 
@@ -159,7 +159,7 @@
 
   .startBtn {
     display: block;
-    width: 270px;
+    min-width: 200px;
     margin-bottom: 8px;
   }
 
